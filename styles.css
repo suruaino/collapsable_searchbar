@@ -3,22 +3,46 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 .search-bar-container{
     border:  1px solid red;
     border-radius: 10rem;
-    width: 100%;
+    width: 1%;
     max-width: 30rem;
     height: 2rem;
     padding-inline: 1rem;
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 5px;
+    overflow: hidden;
+    transition: .5s;
 }
-.search-input,
+.search-input-container,
 .search-input input{
     width: 100%;
+    display: none;
 }
-.search-input input{
-    padding-inline: 1rem;
+.search-input{
+    padding-inline: .5rem;
+}
+
+.search-btn-container{
+    border: 1px solid greenyellow;
+}
+.search-btn-container button{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+.search-btn button i{
+    width: 100%;
+    height: 100%;
 }
