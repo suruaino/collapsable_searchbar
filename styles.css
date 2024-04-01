@@ -10,7 +10,7 @@ body{
     height: 100vh;
 }
 .search-bar-container{
-    border:  1px solid red;
+    border:  1px solid #797978;
     border-radius: 10rem;
     width: 1%;
     max-width: 30rem;
@@ -21,7 +21,7 @@ body{
     justify-content: center;
     gap: 5px;
     overflow: hidden;
-    transition: .5s;
+    transition: .3s;
 }
 .search-input-container,
 .search-input input{
@@ -33,7 +33,7 @@ body{
 }
 
 .search-btn-container{
-    border: 1px solid greenyellow;
+    /* border: 1px solid greenyellow; */
 }
 .search-btn-container button{
     width: 100%;

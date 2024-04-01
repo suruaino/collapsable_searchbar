@@ -18,6 +18,6 @@ document.body.addEventListener('click', (event) => {
         searchBarContainer.style.width = '1rem'; // Shrink width back to 100px
         searchBarContainer.style.justifyContent = "center";
         searchInput.style.display = 'none';
-        
+        searchInputContainer.style.display = 'none';
     }
   });
